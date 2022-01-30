@@ -29,7 +29,6 @@ textarea {
         padding: 0;
     }
 }*/
-
 *,
 *::before,
 *::after {
@@ -48,6 +47,7 @@ textarea {
     --fs-h2: 2.25rem;
     --fs-h3: 1.25rem;
     --fs-body: 1rem;
+    --bs: 0.25 em, 0.25em 0.75em rgba(0,0,0.25),0.125 0.125em 0.25em rgba(0,0,0,.15);
 }
 
 @media (min-width:800px) {
@@ -64,7 +64,6 @@ textarea {
 
 
 
-
 body {
     background: var(--clr-light);
     color: var(--clr-dark);
@@ -74,7 +73,9 @@ body {
     line-height: 1.6;
 }
 
-
+nav {
+    display: none;
+}
 
 img {
     display: block;
@@ -84,6 +85,30 @@ img {
 strong {
     font-weight: var(--fw-reg);
 }
+
+:focus {
+    outline: 3px solid var(--clr-accent);
+    outline-offset: 3px;
+}
+
+.btn {
+    display: inline-block;
+    padding: .5em 1.5em;
+    background: var(--clr-accent);
+    color: var(--clr-dark);
+    text-decoration: none;
+    cursor: pointer;
+    font-size: .8rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: var(--fw-bold);
+}
+
+
+
+
+
+
 
 h1, h2, h3 {
     line-height: 1.1;
@@ -111,9 +136,174 @@ h2 {
     font-size: var(--fs-h3);
 }
 
+section {
+    padding: 5em 2em;
+}
 
 .section__subtitle--intro,
 .section__subtitle--about {
     background: var(--clr-accent);
+    padding: 0.25em;
     font-family: var(--ff--secondary);
+    margin-bottom: 1em;
+}
+
+.intro {
+    position: relative;
+}
+
+.intro__img {
+    box-sizing: var(--bs);
+}
+
+@media(min-width:600px) {
+    .intro {
+        display: grid;
+        width: min-content;
+        margin: 0 auto;
+        grid-column-gap: 1em;
+        grid-template-areas:
+            "img title"
+            "img subtitle";
+        grid-template-columns: min-content max-content;
+    }
+}
+
+.intro__img {
+    grid-area: img;
+    min-width: 250px;
+    position: relative;
+    z-index: 2;
+}
+
+.section__subtitle--intro {
+    align-self: start;
+    grid-column: -1/1;
+    grid-row: 2;
+    text-align: right;
+    position: relative;
+    left: -1.5rem;
+    width: calc(100%+1.5em);
+}
+
+
+
+.section_servises {
+    background-color: var(--clr-dark);
+    background-image: url(../Images/services-background.jpg);
+    background-size: cover;
+    background-blend-mode: multiply;
+    color: var(--clr-light);
+}
+
+.Section__tittle--services {
+    color: var(--clr-accent);
+    position: relative;
+}
+
+    .Section__tittle--services::after {
+        content: '';
+        display: block;
+        width: 25%;
+        height: 1px;
+        margin: 0.5em auto 1em;
+        background-blend-mode: var(--clr-light)
+    }
+
+@media (min-width:800px) {
+    .services {
+        display: flex;
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+}
+
+.about-me {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+
+
+.about-me__img {
+    box-shadow: var(--bs);
+}
+
+@media(min-width: 600px) {
+    .about-me {
+        display: grid;
+        grid-template-columns: 1fr 200 px;
+        grid-template-areas:
+            "title img"
+            "subtitle img"
+            "text img";
+        grid-column-gap: 2em;
+    }
+
+    .section__tittle--about {
+        grid-area: title;
+    }
+
+    .section__subtitle--about {
+        align-self: start;
+        grid-column: 1/-1;
+        grid-row: 2;
+        text-align: left;
+        position: relative;
+        left: -1rem;
+        width: calc(100%+2em);
+        padding-left: 1em;
+        padding-right: calc(200px+4em);
+    }
+
+    .about-me__img {
+        grid-area: img;
+        width: 500px;
+        position: relative;
+    }
+
+
+    .my-work {
+        background-color: var(--clr-dark);
+        color: var(--clr-light);
+        text-align: center;
+    }
+
+    .section__subtitle--work {
+        color: var(--clr-accent);
+        font-weight: bold;
+        margin-bottom: 2em;
+    }
+
+
+    .portfolio {
+        display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(450px,3rem));
+    }
+
+    .portfolio__item {
+        background-color: var(--clr-dark);
+        overflow: hidden;
+    }
+
+    .portfolio__img {
+        transition: transform 750ms cubic-bezier(.5,0,.5,1), opacitty 250ms linear;
+    }
+
+        .portfolio__img:hover {
+            transform: scale(1,2);
+            opacity: .75;
+        }
+
+
+    .footer {
+        background: #111;
+        color: var(--clr-accent);
+        text-align: center;
+        padding: 2.5em 0;
+    }
+
+        .footer a {
+            color: inherit;
+        }
 }
