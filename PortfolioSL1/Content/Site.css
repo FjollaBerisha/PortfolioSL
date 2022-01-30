@@ -308,6 +308,7 @@ section {
 .Section__tittle--services {
     color: var(--clr-accent);
     position: relative;
+    
 }
 
     .Section__tittle--services::after {

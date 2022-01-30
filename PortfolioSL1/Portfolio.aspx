@@ -66,25 +66,37 @@
         
         <div class="service">
             <h3>C# development</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut a sagittis quam. Curabitur id eleifend elit, sit amet convallis nulla. Integer in laoreet tortor. Vestibulum iaculis ipsum mi, et semper ex molestie vel. Sed ultrices facilisis velit, eu rhoncus justo faucibus eu. Aliquam aliquet pellentesque dui a commodo. Nam ac justo a turpis venenatis congue. Quisque lectus augue, euismod efficitur finibus nec, tempor eget nulla. Morbi vehicula, ex eget ullamcorper auctor, nibh enim sollicitudin neque, a pretium purus risus sed magna. Donec suscipit sem eu nunc pellentesque tristique. Nulla ultrices, quam in vestibulum rhoncus, quam sapien accumsan nulla, vel malesuada turpis eros eget felis. Nullam id ligula vitae orci facilisis fermentum ac eget enim. Phasellus eros est, egestas sit amet sollicitudin ac, bibendum nec nulla.</p>
+            <p>The main programming language that I use has been and it currently is c# language.I have worked using c# language for almost 3 years now.
+                I have studied c# at Riinvest college while finnishing my software engineering degree.My main programs are developed using c# for example 
+                the Warehouse Managment System that is listed at my work section.
+            </p>
         </div>
+     
 
  <div class="services">
      <div class="service">
            <h3>Front-end</h3>
-           <P>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut a sagittis quam. Curabitur id eleifend elit, sit amet convallis nulla. Integer in laoreet tortor. Vestibulum iaculis ipsum mi, et semper ex molestie vel. Sed ultrices facilisis velit, eu rhoncus justo faucibus eu. Aliquam aliquet pellentesque dui a commodo. Nam ac justo a turpis venenatis congue. Quisque lectus augue, euismod efficitur finibus nec, tempor eget nulla. Morbi vehicula, ex eget ullamcorper auctor, nibh enim sollicitudin neque, a pretium purus risus sed magna. Donec suscipit sem eu nunc pellentesque tristique. Nulla ultrices, quam in vestibulum rhoncus, quam sapien accumsan nulla, vel malesuada turpis eros eget felis. Nullam id ligula vitae orci facilisis fermentum ac eget enim. Phasellus eros est, egestas sit amet sollicitudin ac, bibendum nec nulla.
-
-           </P>
-           <button class="btn">My Work</button>
+           <p> Building websites using Html,Css and Javascript is what I am currently focused on.I have learned Html,Css and Javascript mainly from different trainings that I
+               have been part of such as Roi Academy Web development training but mainly learned it on my own following book directions or videos.One of my front-end project 
+               is Nuni-Art Gallery Website
+           </p>
+           <button class="btn">
+               <a href="#work" class="nav__link">My work</a>
+           </button>
         </div>
+     
 
  <div class="services">
         <div class="service">
                 <h3>Android mobile </h3>
-                <P>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut a sagittis quam. Curabitur id eleifend elit, sit amet convallis nulla. Integer in laoreet tortor. Vestibulum iaculis ipsum mi, et semper ex molestie vel. Sed ultrices facilisis velit, eu rhoncus justo faucibus eu. Aliquam aliquet pellentesque dui a commodo. Nam ac justo a turpis venenatis congue. Quisque lectus augue, euismod efficitur finibus nec, tempor eget nulla. Morbi vehicula, ex eget ullamcorper auctor, nibh enim sollicitudin neque, a pretium purus risus sed magna. Donec suscipit sem eu nunc pellentesque tristique. Nulla ultrices, quam in vestibulum rhoncus, quam sapien accumsan nulla, vel malesuada turpis eros eget felis. Nullam id ligula vitae orci facilisis fermentum ac eget enim. Phasellus eros est, egestas sit amet sollicitudin ac, bibendum nec nulla.</P>
+                <P>Android mobile is a field that has sparked interest in me this past year.I have already created my first simple Android Studio Project
+                    that is called HanApp.A project that allows you to find the nearest Fast Food Restaurant on Prishtina City.To build this project
+                   I have used Javascript and Android Studio.
+                  
+                </P>
         </div> 
     </div>
-  
+  </div>
 
 
 </section>
@@ -94,13 +106,12 @@
     <h2 class="Section__tittle section__tittle--about" s> Who am i?</h2>
     <p class="section__subtitle--about"> Software engineer student based in Kosovo</p>
     <div class="about-me__body">
-        <p>this is what i write about me he iyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
-            yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
-            yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
-            yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
-        
-            yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
-            yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyhe</p>
+        <p>I am a 21 years old Software Engineering Student based on
+            Prishtina,Kosova.Becoming a software engineer has been one of my ultimate goals,so that makes
+            me very passionate about programming in general.
+            I am on my third year of studies at Riinvest College Prishtina.
+            Currently working on my Web Development career.
+        </p>
     </div>
 <img src="./Images/IMG_218656212.jpeg" alt="graduationdaypicture". class="about-me__img">
 
