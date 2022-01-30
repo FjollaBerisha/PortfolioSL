@@ -8,12 +8,13 @@
 </head>
 <body>
     <form id="form1" runat="server">
+            <link rel="stylesheet" href="Content/Main.css" />
         <div>
             <asp:HiddenField ID="HfUserId" runat="server" />
             <table>
                 <tr>
                     <td> 
-                        <asp:Label Text="First Name" runat="server"></asp:Label>
+                        <asp:Label ForeColor="White" Text="First Name" runat="server"></asp:Label>
                     </td>
                     <td colspan="2"> 
                         <asp:TextBox ID="TxtFirstName" runat="server"></asp:TextBox>
@@ -21,7 +22,7 @@
                 </tr>
                   <tr>
                     <td> 
-                        <asp:Label Text="Last Name" runat="server"></asp:Label>
+                        <asp:Label  ForeColor="White"  Text="Last Name" runat="server"></asp:Label>
                     </td>
                     <td colspan="2"> 
                         <asp:TextBox ID="TxtLastName" runat="server"></asp:TextBox>
@@ -29,7 +30,7 @@
                 </tr>
                   <tr>
                     <td> 
-                        <asp:Label Text="Contact" runat="server"></asp:Label>
+                        <asp:Label ForeColor="White"  Text="Contact" runat="server"></asp:Label>
                     </td>
                     <td colspan="2"> 
                         <asp:TextBox ID="TxtContact" runat="server"></asp:TextBox>
@@ -37,26 +38,26 @@
                 </tr>
                   <tr>
                     <td> 
-                        <asp:Label Text="UserName" runat="server"></asp:Label>
+                        <asp:Label  ForeColor="White"  Text="UserName" runat="server"></asp:Label>
                     </td>
                     <td colspan="2"> 
                         <asp:TextBox ID="TxtUsernName" runat="server"></asp:TextBox>
-                         <asp:Label Text="*" ID="Label1" runat="server" ForeColor="Red"></asp:Label>
+                         <asp:Label   Text="*" ID="Label1" runat="server" ForeColor="Red"></asp:Label>
                     </td>
                 </tr>
                   <tr>
                     <td> 
-                        <asp:Label Text="Pasword" runat="server"></asp:Label>
+                        <asp:Label ForeColor="White"  Text="Pasword" runat="server"></asp:Label>
                        
                     </td>
                     <td colspan="2"> 
                         <asp:TextBox ID="TxtPasword" runat="server"></asp:TextBox>
-                          <asp:Label Text="*" ID="Label2" runat="server" ForeColor="Red"></asp:Label>
+                          <asp:Label  Text="*" ID="Label2" runat="server" ForeColor="Red"></asp:Label>
                     </td>
                 </tr>
                 <tr>
                     <td> 
-                        <asp:Label Text="Confirm Pasword" runat="server"></asp:Label>
+                        <asp:Label ForeColor="White"  Text="Confirm Pasword" runat="server"></asp:Label>
                     </td>
                     <td colspan="2"> 
                         <asp:TextBox ID="txtConfirmPasword" runat="server"></asp:TextBox>
@@ -71,13 +72,13 @@
                 </tr>
                 <tr>
                     <td> 
-                        <asp:Label Text="" ID="Successfulmsg" runat="server" Forecolor="Green"> </asp:Label>
+                        <asp:Label   Text="" ID="Successfulmsg" runat="server" Forecolor="Green"> </asp:Label>
                     </td>
                     
                 </tr>
                   <tr>
                     <td> 
-                        <asp:Label Text="" ID="Failedmsg" runat="server" ForeColor="Red"></asp:Label>
+                        <asp:Label   Text="" ID="Failedmsg" runat="server" ForeColor="Red"></asp:Label>
                     </td>
                     
                 </tr>
@@ -86,7 +87,7 @@
         </div>
         <div >
            
-             <asp:Label Text="If you already have an account click here:" runat="server"></asp:Label>
+             <asp:Label ForeColor="White"  Text="If you already have an account click here:" runat="server"></asp:Label>
               <asp:Button runat="server" id="btnLogIn" Text="Log In" OnClick="btnLogIn_Click" />
 
 

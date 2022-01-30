@@ -5,15 +5,16 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title></title>
+    <link rel="stylesheet" href="Content/Main.css" />
 </head>
 <body>
        <form id="form1" runat="server">
-        <div>
-            <table>
+        <div class="login_box">
+            <table >
                 <tr>
                     <td>
                         <asp:Label Text="User Name" runat="server"></asp:Label>
-                    </td>
+                    </td> 
                     <td>
                         <asp:TextBox ID="txtUsername" runat="server"></asp:TextBox>
                     </td>
@@ -34,7 +35,7 @@
                    
                 </tr>
                   <tr>
-                    <td>
+                    <td class="td">
                         <asp:Label ID="ErrorMessage" Text="" runat="server" ForeColor="Red"></asp:Label>
                     </td>
                    
@@ -43,7 +44,7 @@
         </div>
                     <div >
            
-             <asp:Label Text="If you already have an account click here:" runat="server"></asp:Label>
+             <asp:Label   ForeColor="White" Text= "If you already have an account click here:" runat="server"></asp:Label>
               <asp:Button runat="server" id="btnSU" Text="Sign Up" OnClick="btnSignUp_Click" />
 
 
