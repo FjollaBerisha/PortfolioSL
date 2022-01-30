@@ -1,4 +1,5 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Portfolio.aspx.cs" Inherits="PortfolioSL1.Portfolio" %>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -15,26 +16,27 @@
   href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap">
   
      <link rel="stylesheet" href="Content/Site.css">
+    
 
 </head>
 <body>
     <header>
         <div class="logo">
-            <img src="./Images/logo.png" alt="headerlogo" width="50" height="50"> 
+            <img src="./Images//imgloog.jpg" alt="headerlogo" width="50" height="50"> 
              
-            <button class="nav-toggle" aria-label="toggle navigation">
+            <button class="nav__toggle" aria-label="toggle navigation">
 
-                <span class="Hamburger">
+                <span class="hamburger">
 
                 </span>
             </button>
             <nav class="nav">
-                <ul class="nav_list">
+                <ul class="nav__list">
 
-                    <li class="nav_item"><a href="#home" class="nav__linkl">Home</a></li>
-                    <li class="nav_item"><a href="#" class="nav__linkl">My services</a></li>
-                    <li class="nav_item"><a href="#" class="nav__linkl">About me</a></li>
-                    <li class="nav_item"><a href="#" class="nav__linkl">My work</a></li>
+                    <li class="nav_item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav_item"><a href="#services" class="nav__link">My services</a></li>
+                    <li class="nav_item"><a href="#about" class="nav__link">About me</a></li>
+                    <li class="nav_item"><a href="#work" class="nav__link">My work</a></li>
 
                 </ul>
             </nav>
@@ -149,6 +151,7 @@
         <li class="social-list__item"> <a class="social-list__link" href="https://www.linkedin.com/feed/"><b>GITHUB</b></a></li>
     </ul>
 </footer>
+<script src="Content/index.js"></script>
 </body>
 </html>
 
